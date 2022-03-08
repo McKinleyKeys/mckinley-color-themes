@@ -1,0 +1,26 @@
+{
+    "name": "mckinley-color-themes",
+    "displayName": "McKinley's Color Themes",
+    "description": "McKinley's Color Themes",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Obsidian",
+                "uiTheme": "vs",
+                "path": "./themes/obsidian.json"
+            },
+			{
+				"label": "Sublime",
+				"uiTheme": "vs",
+				"path": "./themes/sublime.json"
+			},
+        ]
+    }
+}
