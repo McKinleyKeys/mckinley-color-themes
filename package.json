@@ -21,6 +21,18 @@
 				"uiTheme": "vs",
 				"path": "./themes/sublime.json"
 			},
-        ]
+			{
+				"label": "Watermelon",
+				"uiTheme": "vs",
+				"path": "./themes/watermelon.json"
+			},
+        ],
+		"iconThemes": [
+			{
+				"label": "McKinley's Icons",
+				"id": "McKinley's Icons",
+				"path": "./icon-themes/icon-theme.json"
+			}
+		]
     }
 }
