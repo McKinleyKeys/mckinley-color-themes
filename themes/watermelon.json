@@ -181,9 +181,9 @@
 		"editorHint.foreground": "#ab9df2",
 		"editorHint.border": "#2d2a2e",
 		"editorGutter.background": "#2d2a2e",
-		"editorGutter.modifiedBackground": "#fc9867",
+		"editorGutter.modifiedBackground": "#a9dc76",
 		"editorGutter.addedBackground": "#a9dc76",
-		"editorGutter.deletedBackground": "#ff6188",
+		"editorGutter.deletedBackground": "#a9dc76",
 		"diffEditor.insertedTextBackground": "#a9dc7619",
 		"diffEditor.removedTextBackground": "#ff618819",
 		"editorWidget.background": "#403e41",
@@ -792,7 +792,10 @@
 			}
 		},
 		{
-			"scope": "keyword",
+			"scope": [
+				"keyword",
+				"keyword.operator.new"
+			],
 			"settings": {
 				"name": "Keyword",
 				"foreground": "#ff6188"
@@ -815,12 +818,11 @@
 		{
 			"scope": [
 				"keyword.operator",
-				"keyword.operator.member",
-				"keyword.operator.new"
+				"keyword.operator.member"
 			],
 			"settings": {
 				"name": "Operator",
-				"foreground": "#ff6188"
+				"foreground": "#fcfcfa"
 			}
 		},
 		{
@@ -1364,7 +1366,7 @@
 			"settings": {
 				"name": "Fat arrow function",
 				"fontStyle": "normal",
-				"foreground": "#ff6188"
+				"foreground": "#fcfcfa"
 			}
 		},
 		{
@@ -1374,7 +1376,6 @@
 			],
 			"settings": {
 				"name": "Keywords that affect the storage of a variable, function or data structure should use the following scope. Examples include static, inline, const, public and private.",
-				"fontStyle": "italic",
 				"foreground": "#ff6188"
 			}
 		},
@@ -1613,7 +1614,6 @@
 			],
 			"settings": {
 				"name": "Function arguments",
-				"fontStyle": "italic",
 				"foreground": "#fc9867"
 			}
 		},
@@ -1625,7 +1625,6 @@
 			],
 			"settings": {
 				"name": "Reserved variable names that are specified by the language, such as this, self, super, arguments. Also in function arguments (e.g. like in Python)",
-				"fontStyle": "italic",
 				"foreground": "#c1c0c0"
 			}
 		},

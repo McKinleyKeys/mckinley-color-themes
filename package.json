@@ -9,6 +9,16 @@
     "categories": [
         "Themes"
     ],
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": true
+		}
+	},
+	"activationEvents": [
+		"onCommand:mckinley-color-themes.activate-obsidian",
+		"onCommand:mckinley-color-themes.activate-watermelon"
+	],
+	"main": "./main.js",
     "contributes": {
         "themes": [
             {
@@ -18,20 +28,35 @@
             },
 			{
 				"label": "Sublime",
-				"uiTheme": "vs",
+				"uiTheme": "vs-dark",
 				"path": "./themes/sublime.json"
 			},
 			{
 				"label": "Watermelon",
-				"uiTheme": "vs",
+				"uiTheme": "vs-dark",
 				"path": "./themes/watermelon.json"
-			},
+			}
         ],
 		"iconThemes": [
+            {
+				"label": "Obsidian Icons",
+				"id": "obsidian-icons",
+				"path": "./icon-themes/obsidian-icon-theme.json"
+			},
 			{
-				"label": "McKinley's Icons",
-				"id": "McKinley's Icons",
-				"path": "./icon-themes/icon-theme.json"
+				"label": "Watermelon Icons",
+				"id": "watermelon-icons",
+				"path": "./icon-themes/watermelon-icon-theme.json"
+			}
+		],
+		"commands": [
+			{
+				"command": "mckinley-color-themes.activate-obsidian",
+				"title": "Activate Obsidian"
+			},
+			{
+				"command": "mckinley-color-themes.activate-watermelon",
+				"title": "Activate Watermelon"
 			}
 		]
     }
