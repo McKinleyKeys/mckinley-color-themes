@@ -18,35 +18,35 @@
 		"onCommand:mckinley-color-themes.activate-obsidian",
 		"onCommand:mckinley-color-themes.activate-watermelon"
 	],
-	"main": "./main.js",
+	"main": "./Sources/main.js",
     "contributes": {
         "themes": [
+			{
+				"label": "Watermelon",
+				"uiTheme": "vs-dark",
+				"path": "./Themes/watermelon.json"
+			},
             {
                 "label": "Obsidian",
                 "uiTheme": "vs",
-                "path": "./themes/obsidian.json"
+                "path": "./Themes/obsidian.json"
             },
 			{
 				"label": "Sublime",
 				"uiTheme": "vs-dark",
-				"path": "./themes/sublime.json"
-			},
-			{
-				"label": "Watermelon",
-				"uiTheme": "vs-dark",
-				"path": "./themes/watermelon.json"
+				"path": "./Themes/sublime.json"
 			}
         ],
 		"iconThemes": [
-            {
-				"label": "Obsidian Icons",
-				"id": "obsidian-icons",
-				"path": "./icon-themes/obsidian-icon-theme.json"
-			},
 			{
 				"label": "Watermelon Icons",
 				"id": "watermelon-icons",
-				"path": "./icon-themes/watermelon-icon-theme.json"
+				"path": "./Icon Themes/watermelon-icon-theme.json"
+			},
+            {
+				"label": "Obsidian Icons",
+				"id": "obsidian-icons",
+				"path": "./Icon Themes/obsidian-icon-theme.json"
 			}
 		],
 		"commands": [

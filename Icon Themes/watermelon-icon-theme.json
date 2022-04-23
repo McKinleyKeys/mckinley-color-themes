@@ -4,7 +4,7 @@
 			"id": "monokai_pro_icons",
 			"src": [
 				{
-					"path": "./icons/icon-font.woff",
+					"path": "./Icons/icon-font.woff",
 					"format": "woff"
 				}
 			],
@@ -41,16 +41,16 @@
 		"_eslint": { "fontCharacter": "\\F118", "fontColor": "#ab9df2" },
 	
 		"_folder": {
-			"iconPath": "./icons/folder-closed.svg"
+			"iconPath": "./Icons/folder-closed.svg"
 		},
 		"_folder-open": {
-			"iconPath": "./icons/folder-open.svg"
+			"iconPath": "./Icons/folder-open.svg"
 		},
 		"_folder-root": {
-			"iconPath": "./icons/folder-closed.svg"
+			"iconPath": "./Icons/folder-closed.svg"
 		},
 		"_folder-root-open": {
-			"iconPath": "./icons/folder-open.svg"
+			"iconPath": "./Icons/folder-open.svg"
 		},
 		
 		"_font": { "fontCharacter": "\\F11E", "fontColor": "#ab9df2" },
@@ -95,7 +95,7 @@
 		"_stylus": { "fontCharacter": "\\F14B", "fontColor": "#fc9867" },
 		"_svelte": { "fontCharacter": "\\F14C", "fontColor": "#ff6188" },
 		"_svg": { "fontCharacter": "\\F14D", "fontColor": "#fc9867" },
-		"_swift": { "fontCharacter": "\\F14E", "fontColor": "#ff6188" },
+		"_swift": { "fontCharacter": "\\F14E", "fontColor": "#f65414" },
 		"_symbolic-link": { "fontCharacter": "\\F14F", "fontColor": "#939293" },
 		"_terraform": { "fontCharacter": "\\F150", "fontColor": "#ab9df2" },
 		"_tex": { "fontCharacter": "\\F151", "fontColor": "#fc9867" },

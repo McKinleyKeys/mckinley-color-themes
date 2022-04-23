@@ -4,7 +4,7 @@
 			"id": "monokai_pro_icons",
 			"src": [
 				{
-					"path": "./icons/icon-font.woff",
+					"path": "./Icons/icon-font.woff",
 					"format": "woff"
 				}
 			],
@@ -14,28 +14,6 @@
 		}
 	],
 	"iconDefinitions": {
-		
-		"_folder": { "iconPath": "./icons/folder-closed-blue.svg" },
-		"_folder-open": { "iconPath": "./icons/folder-open-blue.svg" },
-		"_folder-root": { "iconPath": "./icons/folder-closed-blue.svg" },
-		"_folder-root-open": { "iconPath": "./icons/folder-open-blue.svg" },
-		
-		"_js": { "fontCharacter": "\\F12A", "fontColor": "#0072fe" },
-		"_typescript": { "fontCharacter": "\\F156", "fontColor": "#78dce8" },
-		"_css": { "fontCharacter": "\\F10C", "fontColor": "#008A7F" },
-		"_markup": { "fontCharacter": "\\F132", "fontColor": "#C32E73" },
-		
-		"_json": { "fontCharacter": "\\F12B", "fontColor": "#8d3bff" },
-		"_markdown": { "fontCharacter": "\\F131", "fontColor": "#009a57" },
-		"_text": { "fontCharacter": "\\F152", "fontColor": "#4a4a4a" },
-		
-		"_svg": { "fontCharacter": "\\F14D", "fontColor": "#df7000" },
-		"_image": { "fontCharacter": "\\F128", "fontColor": "#df7000" },
-		
-		"_default": { "fontCharacter": "\\F10F", "fontColor": "#4a4a4a" },
-		
-		
-		
 		"_angular": { "fontCharacter": "\\F101", "fontColor": "#ff6188" },
 		"_applescript": { "fontCharacter": "\\F102", "fontColor": "#a9dc76" },
 		"_binary": { "fontCharacter": "\\F103", "fontColor": "#ffd866" },
@@ -46,18 +24,35 @@
 		"_clojure": { "fontCharacter": "\\F108", "fontColor": "#78dce8" },
 		"_": {
 			"fontCharacter": "\\F143",
-			"fontColor": { "DARK2": "#19181a", "DARK1": "#221f22", "BACKGROUND": "#2d2a2e", "TEXT": "#fcfcfa", "ACCENT1": "#ff6188", "ACCENT2": "#fc9867", "ACCENT3": "#ffd866", "ACCENT4": "#a9dc76", "ACCENT5": "#78dce8", "ACCENT6": "#ab9df2", "DIMMED1": "#c1c0c0", "DIMMED2": "#939293", "DIMMED3": "#727072", "DIMMED4": "#5b595c", "DIMMED5": "#403e41" }
+			"fontColor": { "DARK2": "#19181a", "DARK1": "#221f22", "BACKGROUND": "#2d2a2e", "TEXT": "#fcfcfa", "ACCENT1": "#ff6188", "ACCENT2": "#fc9867", "ACCENT3": "#ffd866", "ACCENT4": "#a9dc76", "ACCENT5": "#78dce8", "ACCENT6": "#ab9df2", "DIMMED1": "#c1c0c0", "DIMMED2": "#939293", "DIMMED3": "#727072", "DIMMED4": "#5b595c", "DIMMED5": "#403e41"
+			}
 		},
 		"_coffeescript": { "fontCharacter": "\\F10A", "fontColor": "#78dce8" },
 		"_crystal": { "fontCharacter": "\\F10B", "fontColor": "#ab9df2" },
+		"_css": { "fontCharacter": "\\F10C", "fontColor": "#fc9867" },
 		"_csv": { "fontCharacter": "\\F10D", "fontColor": "#ffd866" },
 		"_dart": { "fontCharacter": "\\F10E", "fontColor": "#78dce8" },
+		"_default": { "fontCharacter": "\\F10F", "fontColor": "#ffd866" },
 		"_docker": { "fontCharacter": "\\F111", "fontColor": "#78dce8" },
 		"_elixir": { "fontCharacter": "\\F114", "fontColor": "#ab9df2" },
 		"_elm": { "fontCharacter": "\\F115", "fontColor": "#78dce8" },
 		"_env": { "fontCharacter": "\\F116", "fontColor": "#ffd866" },
 		"_erlang": { "fontCharacter": "\\F117", "fontColor": "#ff6188" },
 		"_eslint": { "fontCharacter": "\\F118", "fontColor": "#ab9df2" },
+	
+		"_folder": {
+			"iconPath": "./Icons/folder-closed.svg"
+		},
+		"_folder-open": {
+			"iconPath": "./Icons/folder-open.svg"
+		},
+		"_folder-root": {
+			"iconPath": "./Icons/folder-closed.svg"
+		},
+		"_folder-root-open": {
+			"iconPath": "./Icons/folder-open.svg"
+		},
+		
 		"_font": { "fontCharacter": "\\F11E", "fontColor": "#ab9df2" },
 		"_fortran": { "fontCharacter": "\\F11F", "fontColor": "#ff6188" },
 		"_git": { "fontCharacter": "\\F120", "fontColor": "#fc9867" },
@@ -67,11 +62,16 @@
 		"_haskell": { "fontCharacter": "\\F124", "fontColor": "#fc9867" },
 		"_haxe": { "fontCharacter": "\\F125", "fontColor": "#fc9867" },
 		"_haxealt": { "fontCharacter": "\\F126", "fontColor": "#ffd866" },
+		"_image": { "fontCharacter": "\\F128", "fontColor": "#ffd866" },
 		"_java": { "fontCharacter": "\\F129", "fontColor": "#78dce8" },
+		"_js": { "fontCharacter": "\\F12A", "fontColor": "#ffd866" },
+		"_json": { "fontCharacter": "\\F12B", "fontColor": "#ab9df2" },
 		"_julia": { "fontCharacter": "\\F12C", "fontColor": "#ab9df2" },
 		"_less": { "fontCharacter": "\\F12D", "fontColor": "#ab9df2" },
 		"_lisp": { "fontCharacter": "\\F12E", "fontColor": "#ff6188" },
 		"_lua": { "fontCharacter": "\\F130", "fontColor": "#78dce8" },
+		"_markdown": { "fontCharacter": "\\F131", "fontColor": "#a9dc76" },
+		"_markup": { "fontCharacter": "\\F132", "fontColor": "#fc9867" },
 		"_matlab": { "fontCharacter": "\\F133", "fontColor": "#fc9867" },
 		"_npm": { "fontCharacter": "\\F136", "fontColor": "#ff6188" },
 		"_ocaml": { "fontCharacter": "\\F137", "fontColor": "#fc9867" },
@@ -94,21 +94,19 @@
 		"_sql": { "fontCharacter": "\\F14A", "fontColor": "#ab9df2" },
 		"_stylus": { "fontCharacter": "\\F14B", "fontColor": "#fc9867" },
 		"_svelte": { "fontCharacter": "\\F14C", "fontColor": "#ff6188" },
+		"_svg": { "fontCharacter": "\\F14D", "fontColor": "#fc9867" },
 		"_swift": { "fontCharacter": "\\F14E", "fontColor": "#ff6188" },
 		"_symbolic-link": { "fontCharacter": "\\F14F", "fontColor": "#939293" },
 		"_terraform": { "fontCharacter": "\\F150", "fontColor": "#ab9df2" },
 		"_tex": { "fontCharacter": "\\F151", "fontColor": "#fc9867" },
+		"_text": { "fontCharacter": "\\F152", "fontColor": "#ffd866" },
 		"_todo": { "fontCharacter": "\\F153", "fontColor": "#a9dc76" },
 		"_toml": { "fontCharacter": "\\F154", "fontColor": "#ab9df2" },
 		"_twig": { "fontCharacter": "\\F155", "fontColor": "#a9dc76" },
+		"_typescript": { "fontCharacter": "\\F156", "fontColor": "#78dce8" },
 		"_vue": { "fontCharacter": "\\F157", "fontColor": "#a9dc76" },
-		"_yaml": { "fontCharacter": "\\F158", "fontColor": "#ffd866"}
-	},
-	"file": "_default",
-	"folder": "_folder",
-	"folderExpanded": "_folder-open",
-	"rootFolder": "_folder-root",
-	"rootFolderExpanded": "_folder-root-open",
+		"_yaml": { "fontCharacter": "\\F158", "fontColor": "#ffd866"}},
+		"file": "_default", "folder": "_folder", "folderExpanded": "_folder-open", "rootFolder": "_folder-root", "rootFolderExpanded": "_folder-root-open",
 	
 	"hidesExplorerArrows": true,
 	

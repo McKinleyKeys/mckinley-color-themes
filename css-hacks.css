@@ -1,0 +1,25 @@
+
+body {
+	--font: "Sofia Pro";
+}
+
+.mac {
+	font-family: var(--font);
+}
+
+
+/* --- File explorer --- */
+
+/* #workbench\.parts\.sidebar .monaco-list-row {
+	scale: 1.2;
+} */
+#workbench\.parts\.sidebar .explorer-item {
+	font-family: var(--font);
+	font-size: 14px;
+}
+#workbench\.parts\.sidebar .pane-body {
+	margin: 6px 8px;
+}
+#workbench\.parts\.sidebar .monaco-list-row {
+	border-radius: 6px;
+}

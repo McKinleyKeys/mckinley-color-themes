@@ -24,7 +24,7 @@
 		"editorGutter.addedBackground": "#3B82F7",
 		"editorGutter.deletedBackground": "#3B82F7",
 		
-		"editorGroupHeader.tabsBackground": "#f1f1f1",
+		"editorGroupHeader.tabsBackground": "#f1f0f7",
 		"editorGroupHeader.tabsBorder": "#e4e3e2",
 		"editorGroup.border": "#e4e3e2",
 		"tab.activeForeground": "#027bfe",
@@ -33,38 +33,26 @@
 		"tab.inactiveBackground": "#00000000",
 		"tab.border": "#ddd",
 		
-		
-		
-		
-		
-		"--- THE LIST OF FILES ON THE LEFT ---": "",
-		
-		"sideBar.foreground": "#2b2f39",
-		"sideBar.background": "#dde1ea",
-		"sideBar.border": "#c9cccc",
-		"sideBarTitle.foreground": "#000",
-		"sideBarSectionHeader.foreground": "#000",
-		"sideBarSectionHeader.background": "#ced4dc",
-		
-		
-		
-		"--- THE LEFT-MOST BAR ---": "",
-		
-		"activityBar.foreground": "#666",
-		"activityBar.inactiveForeground": "#6665",
-		"activityBar.background": "#dde1ea",
+		"activityBar.foreground": "#4a445f",
+		"activityBar.inactiveForeground": "#888",
+		"activityBar.background": "#d6d0ef",
 		"activityBarBadge.foreground": "#fff",
 		"activityBarBadge.background": "#0070f5",
 		"activityBar.activeBorder": "#0070f5",
-		"activityBar.border": "#c9cccc",
+		"activityBar.border": "#c1bbd4",
 		
-		
-		
+		"sideBar.foreground": "#000",
+		"sideBar.background": "#dde1ea",
+		"sideBar.border": "#d6d6dd",
+		"sideBarTitle.foreground": "#000",
+		"sideBarSectionHeader.foreground": "#000",
+		"sideBarSectionHeader.background": "#bdb7d2",
 		"tree.indentGuidesStroke": "#d8dee4",
-		"list.activeSelectionForeground": "#002beb",
-		"list.activeSelectionBackground": "#d3d8e3",
-		"list.inactiveSelectionBackground": "#d3d8e3",
-		"list.hoverBackground": "#d3d8e3"
+		"list.activeSelectionForeground": "#222",
+		"list.activeSelectionBackground": "#bcb7d2",
+		"list.activeSelectionIconForeground": "#222",
+		"list.inactiveSelectionBackground": "#bcb7d2",
+		"list.hoverBackground": "#00000000"
 	},
 	"tokenColors": [
 		{
