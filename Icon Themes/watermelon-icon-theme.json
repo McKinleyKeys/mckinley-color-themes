@@ -95,7 +95,7 @@
 		"_stylus": { "fontCharacter": "\\F14B", "fontColor": "#fc9867" },
 		"_svelte": { "fontCharacter": "\\F14C", "fontColor": "#ff6188" },
 		"_svg": { "fontCharacter": "\\F14D", "fontColor": "#fc9867" },
-		"_swift": { "fontCharacter": "\\F14E", "fontColor": "#f65414" },
+		"_swift": { "fontCharacter": "\\F14E", "fontColor": "#549cff" },
 		"_symbolic-link": { "fontCharacter": "\\F14F", "fontColor": "#939293" },
 		"_terraform": { "fontCharacter": "\\F150", "fontColor": "#ab9df2" },
 		"_tex": { "fontCharacter": "\\F151", "fontColor": "#fc9867" },
